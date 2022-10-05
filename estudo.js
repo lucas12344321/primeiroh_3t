@@ -18,3 +18,15 @@ function mechame(nome){
     document.write(tabuada + " x 10 = " + (tabuada*10)+"<Br><Br>");
     document.write("feita por " + nome);
 }
+
+function escreva(){
+    for(var i = 1; i < 11; i++){
+        document.write(tabuada + " x " + i + " = "+(tabuada*i)+"<br>");
+    }
+}
+
+function quadrado(){
+    for(var i = 2; i < 101; i++){
+        document.write("O Quadrado de " + i + " é " + (i*i)+ "<br>")
+    }
+}
