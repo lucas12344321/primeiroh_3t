@@ -38,16 +38,22 @@ function total(){
 
     if(!Number(valor)){
         alert("O valor deve ser um número.")
+        document.getElementById("valor").value = "";
+        document.getElementById("valor").focus();
         return 
     }
 
     if(!Number(juros)){
         alert("O juro deve ser um número.")
+        document.getElementById("juros").value = "";
+        document.getElementById("juros").focus();
         return 
     }
 
     if(!Number(meses)){
         alert("O mes deve ser um número.")
+        document.getElementById("mes").value = "";
+        document.getElementById("mes").focus;
         return 
     }
 
@@ -70,13 +76,15 @@ function média(){
     let n1 = document.getElementById("n1").value;
     let n2 = document.getElementById("n2").value;
     let n3 = document.getElementById("n3").value;
-    let r = (Number(n1) + Number(n2) + Number(n3))/3;
+    let n4 = (Number(n1) + Number(n2) + Number(n3))
+    let r = (Number(n4))/3;
     document.getElementById("resultado").innerHTML = r;
 }
 function precisa(){
     let n1 = document.getElementById("n1").value;
     let n2 = document.getElementById("n2").value;
     let n3 = document.getElementById("n3").value;
-    let r = 180 - (Number(n1) + Number(n2) + Number(n3));
+    let n4 = (Number(n1) + Number(n2) + Number(n3))
+    let r = 180 - (Number(n4));
     document.getElementById("resultado").innerHTML = r;
 }
