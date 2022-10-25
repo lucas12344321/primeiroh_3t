@@ -1,6 +1,6 @@
 .calculadora {
     padding: 10px;
-    background: yellow;
+    background: rgb(175, 166, 166);
     width: 300px;
 }
 
@@ -9,3 +9,4 @@
     padding: 5px;
     background: rgb(179, 173, 173);
 }
+
