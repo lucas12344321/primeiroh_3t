@@ -2,11 +2,39 @@
     padding: 10px;
     background: rgb(175, 166, 166);
     width: 300px;
+    border-radius: 20px;
+}
+.calculadora input {
+    background: rgba(26, 121, 121, 0.774);
+    border-radius: 10px;
+    height: 25px;
+}
+
+.spResul {
+    background: rgb(116, 107, 107);
+    color: white;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 20px;
 }
 
 #btnCalc {
     width: 50px;
     padding: 5px;
     background: rgb(179, 173, 173);
+    margin-top: 15px;
+    border-radius: 10px;
 }
 
+#btnCalc:hover {
+    background: rgb(87, 87, 87);
+    color: white;
+    cursor: pointer;
+}
+
+.mês {
+    background: rgb(117, 108, 108);
+    color: white;
+    border-radius: 20px;
+    width: 200px;
+}
