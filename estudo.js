@@ -96,3 +96,26 @@ function precisa(){
     let r = 180 - (Number(n4));
     document.getElementById("resultado").innerHTML = r;
 }
+
+function calculaRaiz(){
+    let a = document.getElementById("a").value;
+    let b = document.getElementById("b").value;
+    let c = document.getElementById("c").value;
+    let resultado = 0;
+    
+
+    let delta = (b*b) - 4*a*c;
+    alert("precisa do valor de delta")
+    let x1, x2; 
+    if (delta < 0){
+        x1 = (-b)/(2*a)
+        document.getElementById("raiz").innerHTML = "Não tem Raiz "
+    }
+    else if (delta == 0){
+        x1 = ((Number(-b)) + Math.sqrt(Number(delta)))/(2*a);
+        x2 = ((Number(-b)) + Math.sqrt(Number(delta)))/(2*a);
+
+    } else {
+
+    }
+}
