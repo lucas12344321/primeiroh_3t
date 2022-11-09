@@ -10,8 +10,10 @@
     <link rel="stylesheet" href="geral.css">
 </head>
 <body>
+    <input type="checkbox" name="" id="calcFin">
     <div class="calculadora">
-
+        <label for="calcFin"><h3>Financeira</h3></label>
+        <div class="calcF">
         <div class="spResul">
             <span id="resultado">Total: 0,00</span><br>
         </div>
@@ -24,28 +26,21 @@
 <div class="mês">
     <span id="meses">Mês a Mês</span>
 </div>
-
-<div class="spResul">
-    <span id="resultado">Total: 0,00</span><br>
-    Digite o valor de a: <input id="a" type="text"><br>
-    Digite o valor de b: <input id="b" type="text"><br>
-    Digite o valor de c: <input id="c" type="text"><br>
-    <button id="btnCalc" onclick="calculaRaiz()">Equação</button>
-    <div class="spRais">
-        <span id="Raiz"></span>
     </div>
-</div>
 
-   <br> <br> <br> <br> <br>
-   <span id="resultado"></span><br>
-
-    Nota 1: <input id="n1" type="text"><br>
-    Nota 2: <input id="n2" type="text"><br>
-    Nota 3: <input id="n3" type="text"><br>
-
-    <button onclick="soma()">Soma das Notas</button>
-    <button onclick="média()">Média das Notas</button>
-    <button onclick="precisa()"> notas que precisa</button>
+    <input type="checkbox" name="" id="calcEsg">
+    <div class="calculadoraRaiz">
+        <label for="calcEsg"><h3>Segundo Grau</h3></label>
+        <div class="calcE">
+        <div class="spRauz">
+            <span id="raiz">0,00</span><br>
+        </div>
+    a: <input id="valor" type="text"><br>
+   b: <input id="juros" type="text"><br>
+   c: <input id="mes" type="text"><br>
+   <button onclick="calculaRaiz">Calcular</button>
+    </div>
+    </div>
 
 </body>
 </html>
