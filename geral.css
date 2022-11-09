@@ -4,10 +4,29 @@
     width: 300px;
     border-radius: 20px;
 }
+
+.calculadoraRaiz {
+    padding: 10px;
+    background: rgb(31, 216, 216);
+    width: 300px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 5px 5px black;
+}
+
 .calculadora input {
     background: rgba(26, 121, 121, 0.774);
     border-radius: 10px;
     height: 25px;
+}
+
+.calculadoraRaiz input {
+    background:black;
+    color: white;
+    border-radius: 10px;
+    height: 25px;
+    border: none;
+    width: 50px;
 }
 
 .spResul {
@@ -37,4 +56,16 @@
     color: white;
     border-radius: 20px;
     width: 200px;
+}
+
+.calcF {
+    display: none;
+}
+
+#calcFin {
+    display: none;
+}
+
+#calcFin:checked + .calculadora .calcF {
+    display: block;
 }
